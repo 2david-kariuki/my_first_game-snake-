@@ -19,7 +19,6 @@ def reset_game():
     snake_dir = (0, 0)
     food.topleft = (random.randrange(0, 380, 20),
                     random.randrange(0, 380, 20))
-    score = 0
 
 running = True
 print("Starting Snake Game...")  # 🐍 Debug message
